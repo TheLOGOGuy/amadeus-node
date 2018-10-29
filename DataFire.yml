@@ -1,0 +1,3 @@
+options:
+  cors: true
+  cache: 36000
