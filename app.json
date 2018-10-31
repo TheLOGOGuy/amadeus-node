@@ -1,0 +1,20 @@
+{
+  "name": "tripooly_amadeus",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/twbs/bootstrap/tree/v4-dev"
+    }
+  ]
+}
