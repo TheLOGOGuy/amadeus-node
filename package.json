@@ -18,7 +18,9 @@
     "docs:dev": "npm run docs:serve && npm run docs:watch",
     "lint:src": "eslint src",
     "lint:docs": "documentation lint src/**",
-    "console": "node -r ./lib/amadeus.js"
+    "console": "node -r ./lib/amadeus.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "verbose": true,
@@ -59,6 +61,8 @@
     "qs": "^6.5.2",
     "@datafire/amadeus": "5.0.0",
     "npm install amadeus --save": "",
-    "amadeus": ""
-  }
+    "amadeus": "",
+    "snyk": "^1.190.0"
+  },
+  "snyk": true
 }
